@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import { Children, useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from './ui/Button';
+import logo from "../assets/images/logo_llimpalto.webp";
+import  BotaoWhatsApp  from '../components/botaowhatsapp';
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,9 +11,8 @@ export const Header = () => {
     <header className="fixed top-0 w-full z-50 bg-white/95 backdrop-blur-md border-b border-slate-100">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <div className="text-3xl font-black text-emerald-800 tracking-tighter">
-          LIMPALTO<span className="text-amber-500">.</span>
+         <img src={logo} />                     
         </div>
-
         <nav className="hidden md:flex gap-8 font-medium text-emerald-900">
           {['Início', 'Diferenciais', 'Serviços', 'Quem Somos', 'FAQ'].map((item) => (
             <a key={item} href={`#${item.toLowerCase().replace(' ', '-')}`} className="hover:text-amber-500 transition-colors">
@@ -21,7 +22,7 @@ export const Header = () => {
         </nav>
 
         <div className="hidden md:block">
-          <Button variant="primary">Fale Conosco</Button>
+          <BotaoWhatsApp variant="primary" onClick={BotaoWhatsApp}> fale conosco </BotaoWhatsApp>
         </div>
 
         <button className="md:hidden text-emerald-900" onClick={() => setIsOpen(!isOpen)}>

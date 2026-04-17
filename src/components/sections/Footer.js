@@ -37,7 +37,7 @@ export const Footer = () => (
         </div>
       </div>
       <div className="border-t border-emerald-800 pt-8 text-center text-emerald-400 text-sm">
-        © 2024 Limpalto. Todos os direitos reservados.
+        © 2026 Limpalto. Todos os direitos reservados.
       </div>
     </div>
   </footer>
