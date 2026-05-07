@@ -30,7 +30,7 @@ export const Hero = () => (
           <span className="text-amber-500">Tranquilidade</span> para Você.
         </h1>
         <p className="text-xl text-emerald-50/80 mb-10 leading-relaxed max-w-2xl">
-          Há 11 anos transformando ambientes com excelência em Paisagismo, Limpeza e Portaria na Zona Oeste do Rio.
+          Há 11 anos transformando ambientes com excelência em Paisagismo, Limpeza e Portaria no Rio de Janeiro.
         </p>
         <a href='https://wa.me/5521998739149?text=Olá! gostaria de mais informações!' target='_blank'>
         <Button variant="primary" className="text-lg px-8 py-6 h-auto">

@@ -8,7 +8,7 @@ export const FAQ = () => (
       <div className="space-y-2">
         <AccordionItem 
           title="Como funciona a substituição em caso de falta?" 
-          content="Possuímos reserva técnica. Garantimos a reposição em até 1 hora."
+          content="Possuímos reserva técnica. Garantimos a reposição em até 2 horas."
         />
         <AccordionItem 
           title="Fornecem equipamentos e produtos?" 

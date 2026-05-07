@@ -1,12 +1,12 @@
 import React from 'react';
-import { Leaf, Sparkles, Key, Wrench } from 'lucide-react';
+import { Leaf,BrushCleaning, Key, Wrench, Settings } from 'lucide-react';
 import { Card } from '../ui/Card';
 
 const services = [
-  { icon: <Leaf />, title: "Paisagismo e Jardinagem", text: "Nosso carro-chefe. Construção e manutenção contínua de áreas verdes.", highlight: true },
-  { icon: <Sparkles />, title: "Limpeza e Conservação", text: "Limpeza geral, fachadas de vidro e pós-obra com produtos de alta performance." },
-  { icon: <Key />, title: "Portaria e Controle", text: "Portaria não armada, controle rigoroso de acessos e cordialidade." },
-  { icon: <Wrench />, title: "Serviços de Apoio", text: "Recepção, copeira e manutenção especializada de piscinas." }
+  { icon: <Leaf />, title: "Paisagismo e Jardinagem", text: "Nosso carro-chefe. Construção e manutenção contínua de áreas verdes.", /*highlight: true*/ },
+  { icon: <BrushCleaning />, title: "Limpeza e Conservação", text: "Limpeza geral, fachadas de vidro e pós-obra com produtos de alta performance." },
+  { icon: <Key />, title: "Portaria e Controle", text: "Portaria não armada, controle rigoroso de acessos com cordialidade." },
+  { icon: <Settings />, title: "Serviços de Apoio", text: "Recepção, copeira e manutenção especializada de piscinas." }
 ];
 
 export const Services = () => (

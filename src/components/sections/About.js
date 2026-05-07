@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '../ui/Button';
-import imagEquipe from '../../assets/images/img_equipe_vert.webp'
+import imagEquipe from '../../assets/images/services_at.webp'
 
 export const About = () => (
   <section id="quem-somos" className="py-24 bg-slate-50 overflow-hidden">
