@@ -13,7 +13,7 @@ export const PainPoints = () => (
       <div className="grid md:grid-cols-3 gap-8">
         <Card delay={0.1} className="text-center flex flex-col items-center">
           <div className="text-amber-500 mb-6 bg-amber-50 p-4 rounded-2xl"><Clock size={40} /></div>
-          <h3 className="text-xl font-bold text-emerald-900 mb-4">Cobertura em até 1 Hora</h3>
+          <h3 className="text-xl font-bold text-emerald-900 mb-4">Cobertura em até 2 Horas</h3>
           <p className="text-slate-600">Equipe de reserva técnica garante reposição imediata para sua operação não parar.</p>
         </Card>
         <Card delay={0.2} className="text-center flex flex-col items-center">
