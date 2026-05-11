@@ -141,7 +141,7 @@ export const Hero = () => {
                 </span>
                 <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-[1.1]">
                   {slide.title} <br/>
-                  <span className="text-amber-500">{slide.highlight}</span> para Você.
+                  <span className="text-amber-500">{slide.highlight}</span> 
                 </h1>
                 <p className="text-xl text-emerald-50/80 mb-10 leading-relaxed max-w-2xl">
                   {slide.description}
